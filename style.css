@@ -6,3 +6,38 @@
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
+
+@import url(https://fonts.google.com/specimen/Poppins);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Poppins;
+}
+
+.content h1 {
+    color: hsl(234, 12%, 34%);
+    font-size: 40px;
+    font-weight: 800;
+}
+.content{
+    text-align: center;
+}
+.subtitle{
+    color: hsl(229, 6%, 66%);
+    font-size: 20px;
+}
+.content-des{
+    color: hsl(229, 6%, 66%);
+    font-size: 14px; 
+    margin-top: 15px;
+}
