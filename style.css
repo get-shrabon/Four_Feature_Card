@@ -43,15 +43,18 @@ body {
 }
 .card{
     margin-top: 50px;
+    display: flex;
+    gap: 30px;
+    align-items: center;
 }
 .card-1{
     background-color: white;
     border-top: 5px solid  hsl(180, 62%, 55%);
     width: 300px;
     height: auto;
-    padding: 30px 5px;
+    padding: 30px 20px;
     text-align: start;
-    box-shadow: 0px 0px 20px 0px grey;
+    box-shadow: 0px 0px 10px 0px grey;
 }
 .card-1-content p{
     color: hsl(229, 6%, 66%);
@@ -65,4 +68,99 @@ body {
 .card-1-img{
     text-align: end;
     margin-top: 50px;
+}
+.card-one{
+    background-color: white;
+    border-top: 5px solid  hsl(0, 78%, 62%);
+    width: 300px;
+    height: auto;
+    padding: 30px 20px;
+    text-align: start;
+    box-shadow: 0px 0px 10px 0px grey;
+}
+.card-one-content p{
+    color: hsl(229, 6%, 66%);
+    font-size: 14px;
+}
+.card-one-content h3{
+    color: hsl(234, 12%, 34%);
+    font-size: 30px;
+    font-weight: 800;
+}
+.card-one-img{
+    text-align: end;
+    margin-top: 50px;
+}
+.card-two{
+    background-color: white;
+    border-top: 5px solid  hsl(34, 97%, 64%);
+    width: 300px;
+    height: auto;
+    padding: 30px 20px;
+    text-align: start;
+    box-shadow: 0px 0px 10px 0px grey;
+    margin-top: 30px;
+}
+.card-two-content p{
+    color: hsl(229, 6%, 66%);
+    font-size: 14px;
+}
+.card-two-content h3{
+    color: hsl(234, 12%, 34%);
+    font-size: 30px;
+    font-weight: 800;
+}
+.card-two-img{
+    text-align: end;
+    margin-top: 50px;
+}
+.card-4{
+    background-color: white;
+    border-top: 5px solid   hsl(212, 86%, 64%);
+    width: 300px;
+    height: auto;
+    padding: 30px 20px;
+    text-align: start;
+    box-shadow: 0px 0px 10px 0px grey;
+}
+.card-4-content p{
+    color: hsl(229, 6%, 66%);
+    font-size: 14px;
+}
+.card-4-content h3{
+    color: hsl(234, 12%, 34%);
+    font-size: 30px;
+    font-weight: 800;
+}
+.card-4-img{
+    text-align: end;
+    margin-top: 50px;
+}
+@media screen and (max-width:576px) {
+    .card{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    h1{
+        font-size: 35px;
+    }
+    body{
+        height: auto;
+        padding: 50px 0px;
+    }
+}
+@media screen and (min-width:577px) and (max-width:992px) {
+    .card{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    h1{
+        font-size: 35px;
+    }
+    body{
+        height: auto;
+        padding: 50px 0px;
+    }
 }
